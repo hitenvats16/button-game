@@ -1,0 +1,51 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--home-bg-color);
+    cursor: none;
+}
+
+.customCursor {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: none;
+    background-color: var(--btn-body-color);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+}
+
+.scoreBoard span {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    color: var(--btn-body-color);
+}
+.scoreBoard {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
